@@ -1,0 +1,14 @@
+{
+  "extends": "@axia-js/dev/config/tsconfig.json",
+  "exclude": [
+    "build/**/*",
+    "**/build/**/*"
+  ],
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "typeRoots": [
+      "./types",
+      "./node_modules/@types"
+    ]
+  }
+}

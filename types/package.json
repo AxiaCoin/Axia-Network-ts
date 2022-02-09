@@ -1,0 +1,26 @@
+{
+  "name": "@axia-js/ts",
+  "version": "0.1.0",
+  "description": "Typescript definitions that are not (yet) available on https://github.com/DefinitelyTyped/DefinitelyTyped",
+  "repository": "https://github.com/axia-js/ts.git",
+  "author": "Sankar boro <sankar.boro@zeeve.io>",
+  "license": "ISC",
+  "resolutions": {
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "build": "./build.sh",
+    "build:release": "axia-ci-ghact-build --skip-beta",
+    "lint": "axia-dev-run-lint --skip-eslint",
+    "test": "echo \"No 'yarn run test' available\""
+  },
+  "dependencies": {
+    "@types/chrome": "^0.0.157"
+  },
+  "devDependencies": {
+    "@axia-js/dev": "0.1.0",
+    "@babel/core": "^7.15.5",
+    "@types/node": "^16.9.1"
+  },
+  "packageManager": "yarn@3.0.1"
+}
